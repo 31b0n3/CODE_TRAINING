@@ -2,13 +2,14 @@
 
 #define MAXN 1005
 
-int N, K, A[MAXN][MAXN], S[MAXN][MAXN];
+int N, K, A[MAXN][MAXN];//, S[MAXN][MAXN];
 
 int main() {
     FILE *fin = fopen("CAU3.INP", "r");
     FILE *fout = fopen("CAU3.OUT", "w");
 
     fscanf(fin, "%d %d", &N, &K);
+    int S[N][K];
     for (int i = 1; i <= N; i++) {
         for (int j = 1; j <= N; j++) {
             fscanf(fin, "%d", &A[i][j]);
