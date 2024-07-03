@@ -30,4 +30,7 @@ clock_t start = clock();
        clock_t end = clock();
 printf("%lf",(float)((end-start)));
     fprintf(fout,"%d",count);
+    fclose(fin);
+    fclose(fout);
+    return 0;
 }

@@ -58,5 +58,7 @@ int main(){
     }
     
     fprintf(fout, "%d",count);
+    fclose(fin);
+    fclose(fout);
     return 0;
 }
