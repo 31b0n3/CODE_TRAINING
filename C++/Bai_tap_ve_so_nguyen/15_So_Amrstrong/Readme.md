@@ -1,0 +1,1 @@
+[Tính lũy thừa bằng công thức truy hồi](https://freetuts.net/thuat-toan-tinh-luy-thua-nhanh-trong-cc++-2681.html)
