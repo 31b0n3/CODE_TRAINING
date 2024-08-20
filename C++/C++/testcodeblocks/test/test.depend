@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1723989038 source:d:\onedrive - msft\code_training\code_training\c++\testcodeblocks\test\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+
